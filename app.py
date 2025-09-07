@@ -62,7 +62,7 @@ elif agent_choice == "Planner":
             )
             st.markdown(plan["_markdown"])
         else:
-            st.error("⚠️ Please enter both a goal and at least one topic.")
+            st.error("Please enter both a goal and at least one topic.")
 
 # Motivator
 elif agent_choice == "Motivator":
